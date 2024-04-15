@@ -87,5 +87,5 @@ def process_image():
     return jsonify({'cropped_images_base64': cropped_images_base64})
 
 if __name__ == '__main__':
-    app.run(debug=True,port=4200)
+    app.run(debug=True)
 
